@@ -1,0 +1,59 @@
+header img{
+    width: 25px;
+    margin-left: 10px;
+}
+
+nav ul li:hover{
+    color: yellow ;
+}
+
+@media ((min-width: 300px)) { /* Pequeño (sm) y superior */
+    .container{
+        width: 85%;
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 30px;
+        position: relative;
+        top: 50px;
+        background-color: white;
+    }
+    .btn{
+        width: 70%;
+    }
+}
+
+@media (min-width: 740px) { /* Mediano (md) y superior */
+    .container{
+        width: 75%;
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 30px;
+    }
+    .btn{
+        width: 50%;
+    }
+}
+
+@media (min-width: 992px) { /* Grande (lg) y superior */
+    .container{
+        width: 60%;
+    }
+}
+
+@media (min-width: 1200px) { /* Extra grande (xl) y superior */
+    .container{
+        width: 40%;
+        top: 80px
+    }
+    .btn{
+        width: 50%;
+    }
+}
+
+main{
+    background-image: url('/imagenes/fondoDePantalla.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh; 
+    background-attachment: fixed;
+}
