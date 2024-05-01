@@ -1,18 +1,18 @@
-@media (min-width: 576px) { /* Pequeño (sm) y superior */
+@media (min-width: 576px) { 
     .custom-card {
-        width: 12rem; /* Cambia el ancho de la tarjeta para pantallas pequeñas */
+        width: 12rem;
     }
 }
 
-@media (min-width: 740px) { /* Mediano (md) y superior */
+@media (min-width: 740px) { 
     .custom-card {
-        width: 15rem; /* Cambia el ancho de la tarjeta para pantallas medianas */
+        width: 15rem; 
     }
 }
 
-@media (min-width: 992px) { /* Grande (lg) y superior */
+@media (min-width: 992px) { 
     .custom-card {
-        width: 12rem; /* Cambia el ancho de la tarjeta para pantallas grandes */
+        width: 12rem; 
     }
 
     li{
@@ -20,9 +20,9 @@
     }
 }
 
-@media (min-width: 1200px) { /* Extra grande (xl) y superior */
+@media (min-width: 1200px) {
     .custom-card {
-        width: 12rem; /* Cambia el ancho de la tarjeta para pantallas extra grandes */
+        width: 12rem;
     }
 
     li{

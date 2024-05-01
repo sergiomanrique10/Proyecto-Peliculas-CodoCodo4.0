@@ -1,30 +1,30 @@
-@media (min-width: 200px) { /* Pequeño (sm) y superior */
+@media (min-width: 200px) { 
     #containerPlanes h1{
         color: black;
         font-size: 50px;
     }
 }
 
-@media (min-width: 576px) { /* Pequeño (sm) y superior */
+@media (min-width: 576px) { 
     .card {
-        width: 12rem; /* Cambia el ancho de la tarjeta para pantallas pequeñas */
+        width: 12rem;
     }
 }
 
-@media (min-width: 740px) { /* Mediano (md) y superior */
+@media (min-width: 740px) { 
     .card {
-        width: 15rem; /* Cambia el ancho de la tarjeta para pantallas medianas */
+        width: 15rem; 
     }
 }
 
-@media (min-width: 992px) { /* Grande (lg) y superior */
+@media (min-width: 992px) { 
     .card-body{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
     }
     .card {
-        width: 18rem; /* Cambia el ancho de la tarjeta para pantallas grandes */
+        width: 18rem; 
         height: 200px;
     }
     main{
@@ -32,7 +32,7 @@
     }
 }
 
-@media (min-width: 1200px) { /* Extra grande (xl) y superior */
+@media (min-width: 1200px) {
     .card-body{
         display: flex;
         flex-direction: column;
@@ -40,7 +40,7 @@
     }
 
     .card {
-        width: 22rem; /* Cambia el ancho de la tarjeta para pantallas extra grandes */
+        width: 22rem; 
         height: 200px;
         display: flex;
     }
@@ -52,7 +52,7 @@
     }
 }
 
-@media (min-width: 1700px) { /* Extra grande (xl) y superior */
+@media (min-width: 1700px) {
     .card-body{
         display: flex;
         flex-direction: column;
@@ -60,7 +60,7 @@
     }
 
     .card {
-        width: 30rem; /* Cambia el ancho de la tarjeta para pantallas extra grandes */
+        width: 30rem;
         height: 250px;
         display: flex;
         font-size: x-large;
@@ -74,12 +74,11 @@
 }
 
 main{
-    background-image: url('/imagenes/fondoDePantalla.jpg'); /* Ruta de tu imagen de fondo */
-    background-size: cover; /* Ajusta la imagen para que cubra todo el contenedor */
-    background-position: center; /* Centra la imagen en el contenedor */
-    height: 100vh; /* Altura del contenedor (puede ser ajustada según tus necesidades) */
+    background-image: url('/imagenes/fondoDePantalla.jpg');
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh;
     background-attachment: fixed;
-    /* Otros estilos opcionales para el contenido dentro del contenedor */
 }
 
 #containerPlanes{

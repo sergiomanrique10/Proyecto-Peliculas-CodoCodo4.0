@@ -1,13 +1,4 @@
-header img{
-    width: 25px;
-    margin-left: 10px;
-}
-
-nav ul li:hover{
-    color: yellow ;
-}
-
-@media ((min-width: 300px)) { /* Pequeño (sm) y superior */
+@media ((min-width: 300px)) {
     .container{
         width: 85%;
         border: 1px solid black;
@@ -22,7 +13,7 @@ nav ul li:hover{
     }
 }
 
-@media (min-width: 740px) { /* Mediano (md) y superior */
+@media (min-width: 740px) {
     .container{
         width: 75%;
         border: 1px solid black;
@@ -34,13 +25,13 @@ nav ul li:hover{
     }
 }
 
-@media (min-width: 992px) { /* Grande (lg) y superior */
+@media (min-width: 992px){
     .container{
         width: 60%;
     }
 }
 
-@media (min-width: 1200px) { /* Extra grande (xl) y superior */
+@media (min-width: 1200px) {
     .container{
         width: 40%;
         top: 80px

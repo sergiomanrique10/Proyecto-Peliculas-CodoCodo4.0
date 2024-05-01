@@ -1,25 +1,24 @@
-txtNombre = document.getElementById('txtNombre')
-txtApellido = document.getElementById('txtApellido')
-txtEmail = document.getElementById('txtEmail')
-txtPassword = document.getElementById('txtPassword')
-selectPais = document.getElementById('selectPais')
-dateFecha = document.getElementById('dateFecha')
-btnRegistrarme = document.getElementById('btnRegistrarme')
+const txtNombre = document.getElementById('txtNombre');
+const txtApellido = document.getElementById('txtApellido');
+const txtEmail = document.getElementById('txtEmail');
+const txtPassword = document.getElementById('txtPassword');
+const selectPais = document.getElementById('selectPais');
+const dateFecha = document.getElementById('dateFecha');
+const btnRegistrarme = document.getElementById('btnRegistrarme');
 
-/* btnRegistrarme.addEventListener('click', registrarUsuario) */
 btnRegistrarme.addEventListener('click', () => {
-    if(validarCampos){
-        alert("Complete todos los campos por favor")
-    }else{
-        alert("Se ha registrado con éxito")
+    if(validarCampos()){
+        alert("Se ha registrado con éxito");
+        alert(selectPais.value)
+    } else {
+        alert("Complete todos los campos por favor");
     }
 });
 
 const validarCampos = () => {
-    if (txtNombre.value === '' || txtApellido.value === '' || txtEmail.value === '' || txtPassword.value === '' || selectPais.value === '' || dateFecha.value === '') {
-        return false
+    if(txtNombre.value.trim() === "" || txtApellido.value.trim() === "" || txtEmail.value.trim() === "" || txtPassword.value.trim() === "" || selectPais.value === "" || dateFecha.value === ""){
+        return false;
     } else {
-        return true
+        return true;
     }
-}
-
+};

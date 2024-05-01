@@ -3,22 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Peliculas</title>
+    <link rel="icon" type="image/svg" href="imagenes/film.svg">
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-
     <link rel="stylesheet" href="estilos/formulario.css">
-    <script src="scrips/formulario.js" defer></script>
-
+    <link rel="stylesheet" href="estilos/general.css">
   </head>
   <body>
     <header>
@@ -65,21 +59,21 @@
             <div class="row mt-3">
                 <div class="col-sm">
                     <label class="form-label">Nombre</label>
-                    <input class="form-control " type="text" id="txtNombre">
+                    <input class="form-control " type="text" id="txtNombre" required>
                 </div>
                 <div class="col-sm">
                     <label class="form-label">Apellido</label>
-                    <input class="form-control " type="text" id="txtApellido">
+                    <input class="form-control " type="text" id="txtApellido" requerid>
                 </div>
             </div>
             <div class="row mt-3">
                 <div class="col-sm">
                     <label class="form-label">Email</label>
-                    <input class="form-control " type="email" id="txtEmail">
+                    <input class="form-control " type="email" id="txtEmail" requerid>
                 </div>
                 <div class="col-sm">
                     <label class="form-label">Contraseña</label>
-                    <input class="form-control " type="password" id="txtPassword">
+                    <input class="form-control " type="password" id="txtPassword" requerid>
                     <!--  <div class="form-text">Debe contener una combinacion de al menos 8 caracteres con numeros, letras y símbolos</div> -->
                 </div>
             </div>
@@ -87,11 +81,12 @@
             <div class="row mt-3">
                 <div class="col-sm">
                     <label class="form-label">País</label>
-                    <select class="form-select" aria-label="Default select example" id="selectPais">
+                    <select class="form-select" aria-label="Default select example" id="selectPais" requerid>
                         <option selected>Argentina</option>
                         <option value="1">Estados Unidos</option>
                         <option value="2">Brasil</option>
-                        <option value="3">Colombia</option><option value="4">México</option>
+                        <option value="3">Colombia</option>
+                        <option value="4">México</option>
                         <option value="5">Canadá</option>
                         <option value="6">Reino Unido</option>
                         <option value="7">Francia</option>
@@ -122,7 +117,7 @@
                 </div>
                 <div class="col-sm">
                     <label class="form-label">Fecha de nacimiento</label>
-                    <input type="date" class="form-control" id="dateFecha">
+                    <input type="date" class="form-control" id="dateFecha" requerid>
                 </div>
             </div>
 
@@ -145,5 +140,12 @@
             <h5 class="text-center">Proyecto integrador CodoCodo 4.0</h5>
         </div>
     </footer>
+
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+    <script src="scrips/formulario.js"></script>
 </body>
 </html>
