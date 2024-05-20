@@ -4,13 +4,18 @@
     }
 
     .carousel-inner img{
-        height: 450px;
+        min-height: 450px;
+        object-fit: cover;
     }
 }
 
 @media (min-width: 740px) { 
     .custom-card {
         width: 15rem; 
+    }
+    .carousel-inner img{
+        height: 450px;
+        object-fit: cover;
     }
 }
 
@@ -21,6 +26,9 @@
 
     li{
         font-size: small;
+    }
+    .carousel-inner img{
+        height: 450px;
     }
 }
 
@@ -34,6 +42,7 @@
     }
     .carousel-inner img{
         height: 550px;
+        object-fit: fill;
     }
 }
 
@@ -64,10 +73,6 @@
     overflow: visible;
 }
 
-.carousel-inner img{
- min-height: 450px;
- object-fit: cover;
-}
 footer{
     background-color: black;
     color: white;
@@ -77,6 +82,7 @@ body{
     background-image:url("/imagenes/fondoUnico.jpg");
 background-size: cover;
 }
+
 #tarjeta, .card-body, #carrusel{
     background-color: rgba(194, 0, 188, 0);
     /* color: white; */

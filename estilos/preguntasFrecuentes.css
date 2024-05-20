@@ -11,6 +11,10 @@ main{
     background-attachment: fixed;
 }
 
+.titulo{
+    color: white;
+}
+
 .contendorFAQ{
     background-color: rgba(0, 0, 0, 0.714);
     position: relative;
@@ -19,7 +23,6 @@ main{
 .card{
     background-color: rgba(255, 255, 255, 0.677);
     border-radius: 0%;
-    
 }
 .first-letter-large p:not(:last-child)::first-letter {
     font-size: 150%;
