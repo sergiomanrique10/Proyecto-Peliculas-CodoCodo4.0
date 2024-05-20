@@ -7,7 +7,7 @@ body {
 .container{
     border: 1px solid rgb(0, 0, 0);
     border-radius: 10px;
-    padding: 50px;
+    padding: 80px;
 }
 main{
     background-image: url('/imagenes/fondoDePantalla.jpg');
@@ -22,15 +22,22 @@ main{
     top: auto;
 } */
 .contendorComentario{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.661);
     position: relative;
-    top: 50px;
+    top: 20px;
+    width: 70%;
 }
 .first-letter-large p:not(:last-child)::first-letter {
     font-size: 150%;
 }
 .imagenLogo{
     border-radius: 30%;
+}
+body{
+    background-color: black;
+}
+footer{
+    color: white;
 }
 @media (min-width: 992px) { 
     

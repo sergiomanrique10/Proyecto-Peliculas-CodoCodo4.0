@@ -30,6 +30,33 @@
     }
 }
 
+footer{
+    background-color: black;
+    color: white;
+}
+body{
+    background-image:url("/imagenes/fondoUnico.jpg");
+background-size: cover;
+}
+#tarjeta, .card-body{
+    background-color: rgba(0, 0, 0, 0.263);
+    /* color: white; */
+}
+#contenedorPeliculas {
+background-color: transparent;
+color:white;
+
+}
+.form-text, .text-center, p{
+    color: white; 
+}
+.text-center, .list-group, .list-group-item{
+    background-color: rgba(0, 0, 0, 0.356);
+    
+}
+a {
+    color:white;
+}
 .custom-card{
     overflow: hidden;
 }

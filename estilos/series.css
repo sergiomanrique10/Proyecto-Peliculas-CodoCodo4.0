@@ -52,3 +52,32 @@
 .custom-card:hover{
     overflow: visible;
 }
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+body{
+    background-image:url("/imagenes/fondoUnico.jpg");
+background-size: cover;
+}
+#tarjeta, .card-body, #carrusel{
+    background-color: rgba(194, 0, 188, 0);
+    /* color: white; */
+}
+#contenedorPeliculas {
+
+color:white;
+
+}
+.form-text, .text-center, p{
+    color: white; 
+}
+.text-center, .list-group, .list-group-item, .custom-card{
+    background-color: rgba(0, 0, 0, 0.256);
+    
+}
+a {
+    color:white;
+
+}

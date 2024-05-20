@@ -3,6 +3,12 @@
     border-radius: 10px;
     padding: 50px;
 }
+body , footer{
+    background-color: black;
+}
+footer{
+    color: white;
+}
 
 @media (max-width: 576px) { 
     .container{
@@ -41,7 +47,7 @@ main{
 }
 
 .containerLogin{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.593);
     position: relative;
     top: 50px;
 }

@@ -16,7 +16,7 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav class="navbar navbar-expand-sm bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html"
             ><b>Películas</b><img src="imagenes/film.svg" alt="peliculas"
@@ -57,7 +57,7 @@
                 <a class="nav-link" href="planes.html">Planes</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html">Acerca de nosotros</a>
+                <a class="nav-link active" href="about.html">Acerca de nosotros</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="comentarios.html">Comentarios</a>
@@ -72,6 +72,30 @@
     </header>
 
     <main>
+      <!-- *** AQUI REALIZE LAS MODIFICACIONES PARA EL SLIDER AUTOMATICO HOY 19/05/24 *** -->
+      <!-- <h1 id="presentacion">las mejores peliculas estan aquí</h1>
+      <div class="slider">
+        <ul>
+          <li>
+            <img src="imagenes/peliculas/portada/rapidoyfuriosoX.jpg" alt="">
+          </li>
+          <li>
+            <img src="imagenes/peliculas/portada/topGun.jpeg" alt="">
+          </li>
+          <li>
+            <img src="imagenes/peliculas/portada/inmaculadaportada.jpg" alt="">
+          </li>
+          <li>
+             <img src="imagenes/peliculas/portada/fallout.jpeg" alt="">
+          </li>
+          <li>
+            <img src="imagenes/peliculas/listado/ipman3.jpg" alt="">
+          </li>
+          <li>
+            <img src="imagenes/peliculas/listado/ferrari.jpg" alt="">
+          </li> 
+        </ul>
+      </div> -->
       <div id="carouselExampleDark" class="carousel carousel-dark slide mb-3">
         <div class="carousel-indicators">
           <button
@@ -102,7 +126,7 @@
               class="d-block w-100"
               alt="..."
             />
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption">
               <h5>Rapido y Furioso X</h5>
               <p>El final del camino comienza.</p>
             </div>
@@ -113,7 +137,7 @@
               class="d-block w-100"
               alt="..."
             />
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption">
               <h5>Top Gun: Maverick</h5>
               <p>Siente la necesidad... La necesidad de velocidad.</p>
             </div>
@@ -124,7 +148,7 @@
               class="d-block w-100"
               alt="..."
             />
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption">
               <h5>Inmaculada</h5>
               <p>
                 Cecilia que su nuevo hogar alberga oscuros y horribles secretos.
@@ -150,7 +174,7 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
-      </div>
+      </div> 
 
       <div class="container-fluid">
         <div class="row">
@@ -202,17 +226,17 @@
             <h2>Últimas publicadas</h2>
             <section>
               <div
-                class="row row-cols-2 row-cols-sm-3 row-cols-lg-4 row-cols-xl-5 row-cols-xxl-6"
+                class="row row-cols-2 row-cols-sm-3 row-cols-lg-4 row-cols-xl-5 row-cols-xxl-6" id="carrusel"
               >
                 <div class="col">
-                  <div class="card custom-card">
+                  <div class="card custom-card" >
                     <a href="login.html">
                       <img
                         src="imagenes/peliculas/listado/rapidoyFurioso.jpg"
                         class="card-img-top"
                         alt="Rapido y Furioso X"
                       />
-                      <div class="card-body">
+                      <div class="card-body" id="tarjeta">
                         <p><b>Rapido y Furioso X</b></p>
                         <p class="form-text">2023</p>
                       </div>
@@ -223,10 +247,9 @@
                   <div class="card custom-card">
                     <a href="login.html">
                       <img
-                      src="imagenes/peliculas/listado/elpajaroLoco.jpg" 
-                      class="card-img-top"
+                      src="imagenes/peliculas/listado/elpajaroLoco.jpg"card-img-top"
                       alt="Pajaro loco se va de campamento">
-                      <div class="card-body">
+                      <div class="card-body" id="tarjeta">
                         <p><b>El Pájaro Loco se va de campamento</b></p>
                         <p class="form-text">2024</p>
                       </div>
@@ -241,7 +264,7 @@
                         class="card-img-top"
                         alt="El origen"
                       />
-                      <div class="card-body">
+                      <div class="card-body" id="tarjeta">
                         <p><b>Spiderman</b></p>
                         <p class="form-text">2002</p>
                       </div>
@@ -256,7 +279,7 @@
                         class="card-img-top"
                         alt="Interestelar"
                       />
-                      <div class="card-body">
+                      <div class="card-body" id="tarjeta">
                         <p><b>Interestelar</b></p>
                         <p class="form-text">2014</p>
                       </div>
@@ -271,7 +294,7 @@
                         class="card-img-top"
                         alt="El Padrino"
                       />
-                      <div class="card-body">
+                      <div class="card-body" id="tarjeta">
                         <p><b>El Padrino</b></p>
                         <p class="form-text">1972</p>
                       </div>
@@ -286,8 +309,8 @@
                         class="card-img-top"
                         alt="El Padrino"
                       />
-                      <div class="card-body">
-                        <p><b>Top Gun: Mavelik</b></p>
+                      <div class="card-body" id="tarjeta">
+                        <p><b>Top Gun: Maverick</b></p>
                         <p class="form-text">2022</p>
                       </div>
                     </a>
@@ -301,7 +324,7 @@
                         class="card-img-top"
                         alt="El Padrino"
                       />
-                      <div class="card-body">
+                      <div class="card-body" id="tarjeta">
                         <p><b>The Walking Dead</b></p>
                         <p class="form-text">2010</p>
                       </div>
@@ -315,7 +338,7 @@
                         src="imagenes/series/lacasadepapel.jpg"
                         alt="El Padrino"
                       />
-                      <div class="card-body">
+                      <div class="card-body" id="tarjeta">
                         <p><b>La Casa de Papel</b></p>
                         <p class="form-text">2010</p>
                       </div>
@@ -329,7 +352,7 @@
                         src="imagenes/peliculas/listado/inmaculada.jpg"
                         alt="El Padrino"
                       />
-                      <div class="card-body">
+                      <div class="card-body" id="tarjeta">
                         <p><b>Inmaculada</b></p>
                         <p class="form-text">2024</p>
                       </div>
@@ -343,7 +366,7 @@
                         src="imagenes/peliculas/listado/ferrari.jpg"
                         alt="El Padrino"
                       />
-                      <div class="card-body">
+                      <div class="card-body" id="tarjeta">
                         <p><b>Ferrari</b></p>
                         <p class="form-text">2023</p>
                       </div>
@@ -357,7 +380,7 @@
                         src="imagenes/peliculas/listado/elastronauta.jpg"
                         alt="elastronauta"
                       />
-                      <div class="card-body">
+                      <div class="card-body" id="tarjeta">
                         <p><b>El Astronauta</b></p>
                         <p class="form-text">2024</p>
                       </div>
@@ -371,7 +394,7 @@
                         src="imagenes/peliculas/listado/ipman3.jpg"
                         alt="ipman3"
                       />
-                      <div class="card-body">
+                      <div class="card-body" id="tarjeta">
                         <p><b>Ip Man 3</b></p>
                         <p class="form-text">2015</p>
                       </div>
@@ -385,7 +408,7 @@
                         src="imagenes/series/bandoleros.jpg"
                         alt="bandoleros"
                       />
-                      <div class="card-body">
+                      <div class="card-body" id="tarjeta">
                         <p><b>bandoleros</b></p>
                         <p class="form-text">2024</p>
                       </div>
@@ -399,7 +422,7 @@
                         src="imagenes/series/arkAnimated.jpg"
                         alt="arkAnimated"
                       />
-                      <div class="card-body">
+                      <div class="card-body" id="tarjeta">
                         <p><b>ARK: La animación</b></p>
                         <p class="form-text">2024</p>
                       </div>
@@ -410,7 +433,7 @@
                   <div class="card custom-card">
                     <a href="login.html">
                       <img src="imagenes/series/fallout.jpg" alt="Fallout" />
-                      <div class="card-body">
+                      <div class="card-body" id="tarjeta">
                         <p><b>Fallout</b></p>
                         <p class="form-text">2024</p>
                       </div>
@@ -424,7 +447,7 @@
                         src="imagenes/series/alacazadeespiritus.jpg"
                         alt="alacazadeespiritusmalignos"
                       />
-                      <div class="card-body">
+                      <div class="card-body" id="tarjeta">
                         <p><b>A la caza de espíritus malignos</b></p>
                         <p class="form-text">2024</p>
                       </div>
@@ -438,7 +461,7 @@
                         src="imagenes/series/familiapolicias.jpg"
                         alt="familiadepolicias"
                       />
-                      <div class="card-body">
+                      <div class="card-body" id="tarjeta">
                         <p><b>Familia de Policias</b></p>
                         <p class="form-text">2010</p>
                       </div>
@@ -452,7 +475,7 @@
                         src="imagenes/series/losvengadore.jpg"
                         alt="losvengadores"
                       />
-                      <div class="card-body">
+                      <div class="card-body" id="tarjeta">
                         <p><b>Los vengadores</b></p>
                         <p class="form-text">2010</p>
                       </div>
@@ -466,7 +489,7 @@
                         src="imagenes/series/thepacific.jpg"
                         alt="thepacific"
                       />
-                      <div class="card-body">
+                      <div class="card-body" id="tarjeta">
                         <p><b>The Pacific</b></p>
                         <p class="form-text">2010</p>
                       </div>
@@ -482,7 +505,7 @@
 
     <footer>
       <div class="mt-4">
-        <h5 class="text-center">Proyecto integrador CodoCodo 4.0</h5>
+        <h5 >Proyecto integrador CodoCodo 4.0</h5>
       </div>
     </footer>
     <script
